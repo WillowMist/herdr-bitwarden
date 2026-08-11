@@ -20,11 +20,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-herdr-bitwarden is a port of tmux-bitwarden
-(https://github.com/Alkindi42/tmux-bitwarden) by Alkindi, adapted to the herdr
-plugin system. The original work is licensed under the MIT License and this
-port retains that license. Full credit for the original design goes to Alkindi;
-see the README for details.
