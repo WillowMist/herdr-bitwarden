@@ -1,0 +1,29 @@
+id = "bitwarden"
+name = "Bitwarden"
+version = "0.1.0"
+min_herdr_version = "0.8.0"
+description = "Fuzzy-search your Bitwarden vault and paste/copy credentials — a herdr port of Alkindi42/tmux-bitwarden"
+platforms = ["linux", "macos"]
+
+# The picker: a session-modal popup running the fzf selector.
+# Popup placement must be declared here (plugin pane open --placement
+# only supports overlay/split/tab/zoomed).
+[[panes]]
+id = "picker"
+title = "Bitwarden picker"
+placement = "popup"
+width = "80%"
+height = "80%"
+command = ["bash", "picker.sh"]
+
+# Action bound to a key in herdr config.toml, e.g.:
+#   [[keys.command]]
+#   key = "prefix+b"
+#   type = "plugin_action"
+#   command = "bitwarden.open-picker"
+#   description = "Open Bitwarden picker"
+[[actions]]
+id = "open-picker"
+title = "Open Bitwarden picker"
+contexts = ["workspace"]
+command = ["bash", "lib/open-picker.sh"]
