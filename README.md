@@ -28,11 +28,9 @@ This is a **herdr port of [tmux-bitwarden](https://github.com/Alkindi42/tmux-bit
 
 ## Installation
 
-Link it (local development) or install it from GitHub:
+Install it from GitHub:
 
 ```bash
-herdr plugin link ~/hermes-workspace/shared/herdr-bitwarden
-# or, from GitHub:
 herdr plugin install WillowMist/herdr-bitwarden
 ```
 
